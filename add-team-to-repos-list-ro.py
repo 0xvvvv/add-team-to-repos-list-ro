@@ -35,7 +35,7 @@ def grant_read_access_to_team(github_token, organization_name, team_slug, repo_n
 
 def main():
     try:
-        credentials = read_json('github_credentials.json')
+        credentials = read_json('github_config.json')
         github_token = credentials['token']
         organization_name = credentials['organization']
         team_slug = credentials['team_slug']
