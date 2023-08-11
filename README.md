@@ -1,1 +1,1 @@
-# add-team-ro-repos-list-ro
+# add-team-to-repos-list-ro
